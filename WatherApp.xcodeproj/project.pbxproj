@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E230F6240F69B400B3BECE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E230F5240F69B400B3BECE /* AppDelegate.swift */; };
+		18E230F8240F69B400B3BECE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E230F7240F69B400B3BECE /* SceneDelegate.swift */; };
+		18E230FA240F69B400B3BECE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E230F9240F69B400B3BECE /* ViewController.swift */; };
+		18E230FD240F69B400B3BECE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E230FB240F69B400B3BECE /* Main.storyboard */; };
+		18E230FF240F69B600B3BECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E230FE240F69B600B3BECE /* Assets.xcassets */; };
+		18E23102240F69B600B3BECE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E23100240F69B600B3BECE /* LaunchScreen.storyboard */; };
+		18E2310D240F69B600B3BECE /* WatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E2310C240F69B600B3BECE /* WatherAppTests.swift */; };
+		18E23118240F69B600B3BECE /* WatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E23117240F69B600B3BECE /* WatherAppUITests.swift */; };
+		18E23126240F72D200B3BECE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E23125240F72D200B3BECE /* RegisterViewController.swift */; };
+		18E23128240F746D00B3BECE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E23127240F746D00B3BECE /* LoginViewController.swift */; };
+		1BC99E9492C279FA6839D489 /* Pods_WatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC3A14EBDE750BF0076B5738 /* Pods_WatherApp.framework */; };
+		35D01D358D37CFC5EBFB328F /* Pods_WatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D63A0C0A3077186B150FF3 /* Pods_WatherAppTests.framework */; };
+		F8C5289391FEF69700D2E2AF /* Pods_WatherApp_WatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB7D0E1383514C7BD2FF637E /* Pods_WatherApp_WatherAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E23109240F69B600B3BECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E230EA240F69B400B3BECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E230F1240F69B400B3BECE;
+			remoteInfo = WatherApp;
+		};
+		18E23114240F69B600B3BECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E230EA240F69B400B3BECE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E230F1240F69B400B3BECE;
+			remoteInfo = WatherApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E230F2240F69B400B3BECE /* WatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E230F5240F69B400B3BECE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E230F7240F69B400B3BECE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18E230F9240F69B400B3BECE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E230FC240F69B400B3BECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E230FE240F69B600B3BECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E23101240F69B600B3BECE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E23103240F69B600B3BECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E23108240F69B600B3BECE /* WatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E2310C240F69B600B3BECE /* WatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherAppTests.swift; sourceTree = "<group>"; };
+		18E2310E240F69B600B3BECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E23113240F69B600B3BECE /* WatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E23117240F69B600B3BECE /* WatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatherAppUITests.swift; sourceTree = "<group>"; };
+		18E23119240F69B600B3BECE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E23125240F72D200B3BECE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		18E23127240F746D00B3BECE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C161B30F89921BE19B4518D /* Pods-WatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-WatherAppTests/Pods-WatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		62E71E72E35C8BAABFAF2F3C /* Pods-WatherApp-WatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatherApp-WatherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-WatherApp-WatherAppUITests/Pods-WatherApp-WatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		87D63A0C0A3077186B150FF3 /* Pods_WatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7D0E1383514C7BD2FF637E /* Pods_WatherApp_WatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatherApp_WatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3A14EBDE750BF0076B5738 /* Pods_WatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F26F83E23454788FAB8D2D /* Pods-WatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatherApp.debug.xcconfig"; path = "Target Support Files/Pods-WatherApp/Pods-WatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CC3FAE3BE86AB4D398CC9ACB /* Pods-WatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatherApp.release.xcconfig"; path = "Target Support Files/Pods-WatherApp/Pods-WatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		EEEB38E406DA87299ACABE6C /* Pods-WatherApp-WatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatherApp-WatherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-WatherApp-WatherAppUITests/Pods-WatherApp-WatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB5D011D01A06233B683C8AB /* Pods-WatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-WatherAppTests/Pods-WatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E230EF240F69B400B3BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC99E9492C279FA6839D489 /* Pods_WatherApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E23105240F69B600B3BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35D01D358D37CFC5EBFB328F /* Pods_WatherAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E23110240F69B600B3BECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C5289391FEF69700D2E2AF /* Pods_WatherApp_WatherAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144720EC992EB3D8E9B5B550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC3A14EBDE750BF0076B5738 /* Pods_WatherApp.framework */,
+				AB7D0E1383514C7BD2FF637E /* Pods_WatherApp_WatherAppUITests.framework */,
+				87D63A0C0A3077186B150FF3 /* Pods_WatherAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E230E9240F69B400B3BECE = {
+			isa = PBXGroup;
+			children = (
+				18E230F4240F69B400B3BECE /* WatherApp */,
+				18E2310B240F69B600B3BECE /* WatherAppTests */,
+				18E23116240F69B600B3BECE /* WatherAppUITests */,
+				18E230F3240F69B400B3BECE /* Products */,
+				77A4A529053216DD9F96B7AE /* Pods */,
+				144720EC992EB3D8E9B5B550 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18E230F3240F69B400B3BECE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E230F2240F69B400B3BECE /* WatherApp.app */,
+				18E23108240F69B600B3BECE /* WatherAppTests.xctest */,
+				18E23113240F69B600B3BECE /* WatherAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E230F4240F69B400B3BECE /* WatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				18E230F5240F69B400B3BECE /* AppDelegate.swift */,
+				18E230F7240F69B400B3BECE /* SceneDelegate.swift */,
+				18E230F9240F69B400B3BECE /* ViewController.swift */,
+				18E230FB240F69B400B3BECE /* Main.storyboard */,
+				18E23127240F746D00B3BECE /* LoginViewController.swift */,
+				18E23125240F72D200B3BECE /* RegisterViewController.swift */,
+				18E230FE240F69B600B3BECE /* Assets.xcassets */,
+				18E23100240F69B600B3BECE /* LaunchScreen.storyboard */,
+				18E23103240F69B600B3BECE /* Info.plist */,
+			);
+			path = WatherApp;
+			sourceTree = "<group>";
+		};
+		18E2310B240F69B600B3BECE /* WatherAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E2310C240F69B600B3BECE /* WatherAppTests.swift */,
+				18E2310E240F69B600B3BECE /* Info.plist */,
+			);
+			path = WatherAppTests;
+			sourceTree = "<group>";
+		};
+		18E23116240F69B600B3BECE /* WatherAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E23117240F69B600B3BECE /* WatherAppUITests.swift */,
+				18E23119240F69B600B3BECE /* Info.plist */,
+			);
+			path = WatherAppUITests;
+			sourceTree = "<group>";
+		};
+		77A4A529053216DD9F96B7AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5F26F83E23454788FAB8D2D /* Pods-WatherApp.debug.xcconfig */,
+				CC3FAE3BE86AB4D398CC9ACB /* Pods-WatherApp.release.xcconfig */,
+				62E71E72E35C8BAABFAF2F3C /* Pods-WatherApp-WatherAppUITests.debug.xcconfig */,
+				EEEB38E406DA87299ACABE6C /* Pods-WatherApp-WatherAppUITests.release.xcconfig */,
+				5C161B30F89921BE19B4518D /* Pods-WatherAppTests.debug.xcconfig */,
+				FB5D011D01A06233B683C8AB /* Pods-WatherAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E230F1240F69B400B3BECE /* WatherApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E2311C240F69B600B3BECE /* Build configuration list for PBXNativeTarget "WatherApp" */;
+			buildPhases = (
+				1B86FD787E73E665C4A4C4CF /* [CP] Check Pods Manifest.lock */,
+				18E230EE240F69B400B3BECE /* Sources */,
+				18E230EF240F69B400B3BECE /* Frameworks */,
+				18E230F0240F69B400B3BECE /* Resources */,
+				AB9816527176BBE35128B1E1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatherApp;
+			productName = WatherApp;
+			productReference = 18E230F2240F69B400B3BECE /* WatherApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E23107240F69B600B3BECE /* WatherAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E2311F240F69B600B3BECE /* Build configuration list for PBXNativeTarget "WatherAppTests" */;
+			buildPhases = (
+				35A72AAE44212F713531E7FA /* [CP] Check Pods Manifest.lock */,
+				18E23104240F69B600B3BECE /* Sources */,
+				18E23105240F69B600B3BECE /* Frameworks */,
+				18E23106240F69B600B3BECE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E2310A240F69B600B3BECE /* PBXTargetDependency */,
+			);
+			name = WatherAppTests;
+			productName = WatherAppTests;
+			productReference = 18E23108240F69B600B3BECE /* WatherAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E23112240F69B600B3BECE /* WatherAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E23122240F69B600B3BECE /* Build configuration list for PBXNativeTarget "WatherAppUITests" */;
+			buildPhases = (
+				7C92F654724ADE2379F6A5DF /* [CP] Check Pods Manifest.lock */,
+				18E2310F240F69B600B3BECE /* Sources */,
+				18E23110240F69B600B3BECE /* Frameworks */,
+				18E23111240F69B600B3BECE /* Resources */,
+				CDABDEF8A6B3AB497A86BDE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E23115240F69B600B3BECE /* PBXTargetDependency */,
+			);
+			name = WatherAppUITests;
+			productName = WatherAppUITests;
+			productReference = 18E23113240F69B600B3BECE /* WatherAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E230EA240F69B400B3BECE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Apple MacBook Pro";
+				TargetAttributes = {
+					18E230F1240F69B400B3BECE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18E23107240F69B600B3BECE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18E230F1240F69B400B3BECE;
+					};
+					18E23112240F69B600B3BECE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18E230F1240F69B400B3BECE;
+					};
+				};
+			};
+			buildConfigurationList = 18E230ED240F69B400B3BECE /* Build configuration list for PBXProject "WatherApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E230E9240F69B400B3BECE;
+			productRefGroup = 18E230F3240F69B400B3BECE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E230F1240F69B400B3BECE /* WatherApp */,
+				18E23107240F69B600B3BECE /* WatherAppTests */,
+				18E23112240F69B600B3BECE /* WatherAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E230F0240F69B400B3BECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E23102240F69B600B3BECE /* LaunchScreen.storyboard in Resources */,
+				18E230FF240F69B600B3BECE /* Assets.xcassets in Resources */,
+				18E230FD240F69B400B3BECE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E23106240F69B600B3BECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E23111240F69B600B3BECE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B86FD787E73E665C4A4C4CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35A72AAE44212F713531E7FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatherAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C92F654724ADE2379F6A5DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatherApp-WatherAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB9816527176BBE35128B1E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatherApp/Pods-WatherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatherApp/Pods-WatherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WatherApp/Pods-WatherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDABDEF8A6B3AB497A86BDE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatherApp-WatherAppUITests/Pods-WatherApp-WatherAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WatherApp-WatherAppUITests/Pods-WatherApp-WatherAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WatherApp-WatherAppUITests/Pods-WatherApp-WatherAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E230EE240F69B400B3BECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E230FA240F69B400B3BECE /* ViewController.swift in Sources */,
+				18E230F6240F69B400B3BECE /* AppDelegate.swift in Sources */,
+				18E230F8240F69B400B3BECE /* SceneDelegate.swift in Sources */,
+				18E23128240F746D00B3BECE /* LoginViewController.swift in Sources */,
+				18E23126240F72D200B3BECE /* RegisterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E23104240F69B600B3BECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E2310D240F69B600B3BECE /* WatherAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E2310F240F69B600B3BECE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E23118240F69B600B3BECE /* WatherAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E2310A240F69B600B3BECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E230F1240F69B400B3BECE /* WatherApp */;
+			targetProxy = 18E23109240F69B600B3BECE /* PBXContainerItemProxy */;
+		};
+		18E23115240F69B600B3BECE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E230F1240F69B400B3BECE /* WatherApp */;
+			targetProxy = 18E23114240F69B600B3BECE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E230FB240F69B400B3BECE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E230FC240F69B400B3BECE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E23100240F69B600B3BECE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E23101240F69B600B3BECE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E2311A240F69B600B3BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18E2311B240F69B600B3BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E2311D240F69B600B3BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F26F83E23454788FAB8D2D /* Pods-WatherApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.WatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E2311E240F69B600B3BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3FAE3BE86AB4D398CC9ACB /* Pods-WatherApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatherApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.WatherApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18E23120240F69B600B3BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C161B30F89921BE19B4518D /* Pods-WatherAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatherAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.WatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatherApp.app/WatherApp";
+			};
+			name = Debug;
+		};
+		18E23121240F69B600B3BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB5D011D01A06233B683C8AB /* Pods-WatherAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatherAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.WatherAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatherApp.app/WatherApp";
+			};
+			name = Release;
+		};
+		18E23123240F69B600B3BECE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E71E72E35C8BAABFAF2F3C /* Pods-WatherApp-WatherAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.WatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatherApp;
+			};
+			name = Debug;
+		};
+		18E23124240F69B600B3BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEB38E406DA87299ACABE6C /* Pods-WatherApp-WatherAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WatherAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Abdullah.WatherAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatherApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E230ED240F69B400B3BECE /* Build configuration list for PBXProject "WatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2311A240F69B600B3BECE /* Debug */,
+				18E2311B240F69B600B3BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E2311C240F69B600B3BECE /* Build configuration list for PBXNativeTarget "WatherApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E2311D240F69B600B3BECE /* Debug */,
+				18E2311E240F69B600B3BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E2311F240F69B600B3BECE /* Build configuration list for PBXNativeTarget "WatherAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E23120240F69B600B3BECE /* Debug */,
+				18E23121240F69B600B3BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E23122240F69B600B3BECE /* Build configuration list for PBXNativeTarget "WatherAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E23123240F69B600B3BECE /* Debug */,
+				18E23124240F69B600B3BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E230EA240F69B400B3BECE /* Project object */;
+}

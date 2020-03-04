@@ -1,0 +1,6 @@
+framework module Pods_WatherApp {
+  umbrella header "Pods-WatherApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
